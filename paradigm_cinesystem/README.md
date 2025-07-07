@@ -56,7 +56,7 @@ O **Paradigm CineSystem** é uma aplicação moderna de reserva de ingressos de 
 1. **Clone o repositório**
    ```bash
    git clone https://github.com/deerws/oop_pratices/paradigm_cinesystem.git
-   cd ParadigmCineSystem
+   cd paradigm_cinesystem
    ```
 
 2. **Instale as dependências**
@@ -153,14 +153,6 @@ Contribuições são bem-vindas! Para contribuir:
 4. 📤 Push para a branch (`git push origin feature/AmazingFeature`)
 5. 🔍 Abra um Pull Request
 
-## 📋 Roadmap
-
-- [ ] 🌐 Interface web complementar
-- [ ] 🎨 Temas personalizáveis
-- [ ] 📊 Relatórios de vendas
-- [ ] 🔐 Sistema de autenticação
-- [ ] 💳 Integração com pagamentos
-- [ ] 📱 Versão mobile
 
 ## 🐛 Problemas Conhecidos
 
@@ -176,7 +168,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 **Seu Nome**
 - GitHub: [@deerws](https://github.com/deerws)
-- Email: seu.email@example.com
+- Email: paes.andre33@gmail.com
 
 ---
 
