@@ -25,7 +25,7 @@ pip install customtkinter requests
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/deerws/weather-report.git
+   git clone https://github.com/deerws/oop_pratices/edit/main/weather_report.git
    ```
 
 2. Navigate to the project directory:
