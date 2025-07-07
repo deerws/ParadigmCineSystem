@@ -30,7 +30,7 @@ The system consists of four main classes:
 
 2. Clone this repository:
 ```bash
-git clone https://github.com/deerws/vesuvios-pizza.git
+git clone https://github.com/deerws/oop_pratices/pizza_shop_terminal.git
 ```
 
 3. Navigate to the project directory:
