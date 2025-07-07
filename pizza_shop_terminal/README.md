@@ -1,46 +1,60 @@
-Vesuvio's Pizza - Order System
+# Vesuvio's Pizza - Order System
 
-**Description**
+A terminal-based pizza ordering system where customers and employees can register, authenticate, and interact with the menu. The system allows customers to place orders and employees to check work shifts.
 
-This is a terminal-based pizza ordering system where customers and employees can register, authenticate, and interact with the menu. The system allows customers to place orders and employees to check work shifts.
+## 🍕 Features
 
-**Features**
+- Registration and authentication for customers and employees
+- Display of available pizza menu
+- Order placement
+- Employee work shift display
 
-*Registration and authentication for customers and employees
-*Display of available pizza menu
-*Order placement
-*Employee work shift display
-
-**Code Structure**
+## 🏗️ Code Structure
 
 The system consists of four main classes:
 
-Username: Base class that stores name and password.
-Cliente: Inherits from Username, allowing customer registration and authentication.
-Funcionario: Inherits from Username, allowing employee registration and authentication.
-Pizza: Defines pizza flavors and prices.
-Service: Manages menu display and order processing.
+- **Username**: Base class that stores name and password
+- **Cliente**: Inherits from Username, allowing customer registration and authentication
+- **Funcionario**: Inherits from Username, allowing employee registration and authentication
+- **Pizza**: Defines pizza flavors and prices
+- **Service**: Manages menu display and order processing
 
-**How to Run**
+## 🚀 How to Run
 
-*Make sure you have Python installed.
-Clone this repository:
+### Prerequisites
+- Python 3.x installed on your system
 
+### Installation and Execution Steps
+
+1. Make sure you have Python installed
+
+2. Clone this repository:
+```bash
 git clone https://github.com/deerws/vesuvios-pizza.git
+```
 
-Navigate to the project directory:
-
+3. Navigate to the project directory:
+```bash
 cd vesuvios-pizza
+```
 
-Run the main script:
+4. Run the main script:
+```bash
 python vesuvios_pizza.py
+```
 
-Follow the instructions displayed on the terminal.
+5. Follow the instructions displayed on the terminal
 
-**Future Improvements**
+## 🔮 Future Improvements
 
-->Implement a database to store customer and order information.
+- Implement a database to store customer and order information
+- Develop a graphical user interface for better user experience
+- Add pizza customization options
 
-->Develop a graphical user interface for better user experience.
+## 🙌 Credits
 
-->Add pizza customization options.
+Developed by **André Pinheiro Paes** - CS Student (UFSC).
+
+---
+
+Enjoy your pizza! 🍕
