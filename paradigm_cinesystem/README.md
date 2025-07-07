@@ -7,172 +7,171 @@
   <img src="https://img.shields.io/badge/Database-SQLite-lightgrey.svg" alt="Database">
 </div>
 
-## 📖 Sobre o Projeto
+## 📖 About the Project
 
-O **Paradigm CineSystem** é uma aplicação moderna de reserva de ingressos de cinema desenvolvida em Python. Com uma interface gráfica elegante e intuitiva, o sistema permite aos usuários visualizar filmes disponíveis, verificar preços e realizar compras de ingressos de forma simples e eficiente.
+**Paradigm CineSystem** is a modern cinema ticket booking application developed in Python. With an elegant and intuitive graphical interface, the system allows users to view available movies, check prices, and purchase tickets in a simple and efficient way.
 
-### ✨ Principais Características
+### ✨ Key Features
 
-- 🎨 **Interface Moderna**: Desenvolvida com CustomTkinter para uma experiência visual atraente
-- 📊 **Visualização em Tempo Real**: Tabela interativa mostrando disponibilidade de ingressos
-- 💾 **Persistência de Dados**: Banco de dados SQLite para armazenamento confiável
-- 🎫 **Comprovantes**: Geração automática de recibos de compra
-- 🔄 **Atualizações Automáticas**: Sincronização instantânea do estoque após compras
+- 🎨 **Modern Interface**: Built with CustomTkinter for an attractive visual experience
+- 📊 **Real-time Visualization**: Interactive table showing ticket availability
+- 💾 **Data Persistence**: SQLite database for reliable storage
+- 🎫 **Receipts**: Automatic generation of purchase receipts
+- 🔄 **Automatic Updates**: Instant stock synchronization after purchases
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-### 🎪 Tela Inicial
-- Splash screen com design customizado
-- Botão de inicialização com animações suaves
+### 🎪 Initial Screen
+- Splash screen with custom design
+- Initialization button with smooth animations
 
-### 🎯 Sistema de Reservas
-- **Seleção de Filmes**: Visualize todos os filmes disponíveis
-- **Controle de Quantidade**: Escolha de 1 a 3 ingressos por compra
-- **Validação Inteligente**: Verificação automática de disponibilidade
-- **Confirmação de Compra**: Feedback visual da transação
+### 🎯 Booking System
+- **Movie Selection**: View all available movies
+- **Quantity Control**: Choose from 1 to 3 tickets per purchase
+- **Smart Validation**: Automatic availability verification
+- **Purchase Confirmation**: Visual transaction feedback
 
-### 📋 Gerenciamento de Dados
-- **Banco de Dados**: SQLite com tabela otimizada para tickets
-- **Arquivo de Logs**: Histórico completo de todas as transações
-- **Validação de Entrada**: Proteção contra dados inválidos
+### 📋 Data Management
+- **Database**: SQLite with optimized ticket table
+- **Log Files**: Complete history of all transactions
+- **Input Validation**: Protection against invalid data
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-| Tecnologia | Versão | Propósito |
+| Technology | Version | Purpose |
 |-----------|--------|-----------|
-| **Python** | 3.7+ | Linguagem principal |
-| **CustomTkinter** | Latest | Interface gráfica moderna |
-| **Tkinter** | Built-in | Widgets complementares |
-| **SQLite3** | Built-in | Banco de dados |
+| **Python** | 3.7+ | Main language |
+| **CustomTkinter** | Latest | Modern GUI framework |
+| **Tkinter** | Built-in | Complementary widgets |
+| **SQLite3** | Built-in | Database |
 
-## 📦 Instalação
+## 📦 Installation
 
-### Pré-requisitos
-- Python 3.7 ou superior
-- pip (gerenciador de pacotes Python)
+### Prerequisites
+- Python 3.7 or higher
+- pip (Python package manager)
 
-### 🔧 Passos de Instalação
+### 🔧 Installation Steps
 
-1. **Clone o repositório**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/deerws/oop_pratices/paradigm_cinesystem.git
    cd paradigm_cinesystem
    ```
 
-2. **Instale as dependências**
+2. **Install dependencies**
    ```bash
    pip install customtkinter
    ```
 
-3. **Execute a aplicação**
+3. **Run the application**
    ```bash
    python main.py
    ```
 
-## 🗂️ Estrutura do Projeto
+## 🗂️ Project Structure
 
 ```
 ParadigmCineSystem/
 ├── 📁 assets/
-│   ├── 0.png              # Imagem da tela inicial
-│   └── 1.png              # Imagem da tela principal
-├── 📄 database.py         # Operações do banco de dados
-├── 📄 main.py            # Lógica principal da aplicação
-├── 📄 Reservation.db     # Banco de dados SQLite (auto-gerado)
-├── 📄 Tickets.txt        # Arquivo de comprovantes (auto-gerado)
-└── 📄 README.md          # Documentação do projeto
+│   ├── 0.png              # Initial screen image
+│   └── 1.png              # Main screen image
+├── 📄 database.py         # Database operations
+├── 📄 main.py            # Main application logic
+├── 📄 Reservation.db     # SQLite database (auto-generated)
+├── 📄 Tickets.txt        # Receipt file (auto-generated)
+└── 📄 README.md          # Project documentation
 ```
 
-## 🎯 Como Usar
+## 🎯 How to Use
 
-### 1️⃣ Iniciando a Aplicação
-- Execute o arquivo `main.py`
-- Clique no botão **"Start"** na tela inicial
+### 1️⃣ Starting the Application
+- Run the `main.py` file
+- Click the **"Start"** button on the initial screen
 
-### 2️⃣ Comprando Ingressos
-1. **Selecione um filme** na tabela de filmes disponíveis
-2. **Digite seu nome** no campo "Username"
-3. **Escolha a quantidade** de ingressos (1-3)
-4. **Clique em "Buy Tickets"** para confirmar
+### 2️⃣ Buying Tickets
+1. **Select a movie** from the available movies table
+2. **Enter your name** in the "Username" field
+3. **Choose the quantity** of tickets (1-3)
+4. **Click "Buy Tickets"** to confirm
 
-### 3️⃣ Confirmação
-- ✅ Mensagem de sucesso será exibida
-- 📋 Comprovante será salvo em `Tickets.txt`
-- 🔄 Estoque será atualizado automaticamente
+### 3️⃣ Confirmation
+- ✅ Success message will be displayed
+- 📋 Receipt will be saved in `Tickets.txt`
+- 🔄 Stock will be updated automatically
 
-## 🗄️ Estrutura do Banco de Dados
+## 🗄️ Database Structure
 
-### Tabela: `Tickets`
-| Campo | Tipo | Descrição |
+### Table: `Tickets`
+| Field | Type | Description |
 |-------|------|-----------|
-| `ticket_id` | INTEGER | Identificador único do ingresso |
-| `movie_name` | TEXT | Nome do filme |
-| `ticket_quantity` | INTEGER | Quantidade disponível |
-| `ticket_price` | REAL | Preço por ingresso |
+| `ticket_id` | INTEGER | Unique ticket identifier |
+| `movie_name` | TEXT | Movie name |
+| `ticket_quantity` | INTEGER | Available quantity |
+| `ticket_price` | REAL | Price per ticket |
 
-## 📱 Interface do Usuário
+## 📱 User Interface
 
-### Componentes Principais
-- **Treeview**: Exibição tabular dos filmes
-- **Entry Field**: Campo de entrada para nome do usuário
-- **ComboBox**: Seleção de quantidade de ingressos
-- **Botões**: Interação com o sistema
-- **Labels**: Informações e feedback
+### Main Components
+- **Treeview**: Tabular display of movies
+- **Entry Field**: Input field for username
+- **ComboBox**: Ticket quantity selection
+- **Buttons**: System interaction
+- **Labels**: Information and feedback
 
-### Esquema de Cores
-- **Fundo**: `#18161D` (Cinza escuro)
-- **Destaque**: `#6ECF00` (Verde vibrante)
-- **Texto**: `#FFFFFF` (Branco)
-- **Componentes**: `#000000` (Preto)
+### Color Scheme
+- **Background**: `#18161D` (Dark gray)
+- **Highlight**: `#6ECF00` (Vibrant green)
+- **Text**: `#FFFFFF` (White)
+- **Components**: `#000000` (Black)
 
-## 🔧 Personalização
+## 🔧 Customization
 
-### Modificando Filmes
-Edite o arquivo `database.py` para adicionar/remover filmes:
+### Modifying Movies
+Edit the `database.py` file to add/remove movies:
 
 ```python
-# Exemplo de inserção
+# Example insertion
 cursor.execute("INSERT INTO Tickets VALUES (?, ?, ?, ?)", 
-               (4, "Novo Filme", 10, 25.00))
+               (4, "New Movie", 10, 25.00))
 ```
 
-### Alterando Limites
-Modifique a lista `self.options` em `main.py` para alterar a quantidade máxima de ingressos:
+### Changing Limits
+Modify the `self.options` list in `main.py` to change the maximum number of tickets:
 
 ```python
-self.options = ['1', '2', '3', '4', '5']  # Permite até 5 ingressos
+self.options = ['1', '2', '3', '4', '5']  # Allows up to 5 tickets
 ```
 
-## 🤝 Contribuindo
+## 🤝 Contributing
 
-Contribuições são bem-vindas! Para contribuir:
+Contributions are welcome! To contribute:
 
-1. 🍴 Faça um fork do projeto
-2. 🌟 Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. 💾 Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. 📤 Push para a branch (`git push origin feature/AmazingFeature`)
-5. 🔍 Abra um Pull Request
+1. 🍴 Fork the project
+2. 🌟 Create a branch for your feature (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🔍 Open a Pull Request
 
+## 🐛 Known Issues
 
-## 🐛 Problemas Conhecidos
+- Images must be in the root directory
+- Maximum quantity limited to 3 tickets
+- Basic input validation
 
-- Imagens devem estar no diretório raiz
-- Quantidade máxima limitada a 3 ingressos
-- Validação básica de entrada
+## 📄 License
 
-## 📄 Licença
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+## 👨‍💻 Author
 
-## 👨‍💻 Autor
-
-**Seu Nome**
+**Your Name**
 - GitHub: [@deerws](https://github.com/deerws)
 - Email: paes.andre33@gmail.com
 
 ---
 
 <div align="center">
-  <p>⭐ Se este projeto foi útil para você, considere dar uma estrela!</p>
-  <p>🎬 Feito com ❤️ para entusiastas de cinema</p>
+  <p>⭐ If this project was useful to you, consider giving it a star!</p>
+  <p>🎬 Made with ❤️ for cinema enthusiasts</p>
 </div>
