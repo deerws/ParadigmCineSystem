@@ -38,7 +38,7 @@ The **Car Rental Application** is a modern desktop application built with Python
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/deerws/opp_pratices/car_rental_interface.git
+   git clone https://github.com/deerws/opp_practices/car_rental_interface.git
    cd car_rental_interface
    ```
 
