@@ -55,7 +55,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/deerws/oop_pratices/paradigm_cinesystem.git
+   git clone https://github.com/deerws/oop_practices/paradigm_cinesystem.git
    cd paradigm_cinesystem
    ```
 
