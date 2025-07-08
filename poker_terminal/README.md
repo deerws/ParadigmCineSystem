@@ -23,13 +23,12 @@ The code is developed in Python and uses concepts such as classes, enumerations,
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/deerws/opp_pratices/poker_terminal.git
-cd casino-royale
+git clone https://github.com/deerws/opp_practices/poker_terminal.git
 ```
 
 2. Run the script:
 ```bash
-python casino_royale.py
+python main.py
 ```
 
 3. Follow the on-screen instructions:
